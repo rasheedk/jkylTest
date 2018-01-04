@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Roster Net
-subtitle: demo example app walk-through
+subtitle: PaaS
 ---
 
 The quality of physician demographics and which insurance plans they accept remains a challenge across the healthcare ecosystem. Even answering a simple question like “is a particular provider accepting new patients?” is not easy to answer.
@@ -10,33 +10,18 @@ No single stakeholder or institution can solve this problem alone. The RosterNet
 
 
 
-# Example app overview
+# PaaS
 
-Suppose we want to have a simple Shiny app that collects a user's basic
-information (name, age, company) and submits it, along with the time of
-submission.  Here is a very simple implementation of such an app (nothing
-actually happens when the user "submits").
+Specific to each Data Source, there should be a Data Harvesting Agent which pulls data from the source and provide to the Respective RosterNet Aggregator Agents.
+For Example, the NPPES CSV Data Harvesting Agent flow below watches a folder for NPPES CSV files, Read the file and provide the data as JSON.
+Based on the Data and Data Source, we will need to create as many Data Harvesting Agents as possible.
 
-```
-library(RosterNet)
-shinyApp(
-  ui = fluidPage(
-    div(id = "myapp",
-      h2("shinyjs demo"),
-      textInput("name", "Name", ""),
-      numericInput("age", "Age", 30),
-      textInput("company", "Company", ""),
-      p("Timestamp: ", span(date())),
-      actionButton("submit", "Submit")
-    )
-  ),
-  
-  server = function(input, output) {
-  }
-)
-```
 
-> Here is what that app would look like
+#Data Source
+
+Phase 1 : NPPES CSV Data(Available for Download) and Data from NPPES API calls will be the first Data Source for RosterNet. 
+
+Phase 2 and future Phases : Integration to 3rd Party EHR. 
 
 
 
@@ -46,18 +31,4 @@ The RosterNet Platform as a Service (PaaS) gives health systems and health insur
 
 Significant cost savings are achieved through federated roster management shared services and open source software. You’re no longer alone.
 
-**1. The "Name" field is mandatory and thus the "Submit" button should not be
-enabled if there is no name**
-
-In the server portion, add the following code
-
-```
-observe({
-  if (is.null(input$name) || input$name == "") {
-    rosterNet::disable("submit")
-  } else {
-    rosterNet::enable("submit")
-  }
-})
-```
 
