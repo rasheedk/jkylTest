@@ -1,0 +1,34 @@
+url: "https://rasheedk.github.io/"
+baseurl: "/jkylTest"
+
+title: RosterNet
+
+# Short description of your site
+description: Open Source Provider Directory Software and Data Network
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  Home: "https://rasheedk.github.io/jkylTest"
+  Specification : 
+  - Data Specification : dataspecification
+  - Process Workflow : processworkflow
+  For All Participants: help
+  Provider Roster PaaS: example
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: RosterNet
+  email: "rosternet@rosternet.com"
+
+
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: ""
+
+timezone: "America/Toronto"
+markdown: kramdown
+highlighter: rouge
