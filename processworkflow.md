@@ -8,7 +8,7 @@ title: Process Workflow
   
   <div class="feature">
   RosterNet Federation Workflow v1.1
-<img src="/img/RosterNet_Federation_Workflow_v1.1.svg" class="diagrom-img-sec">
+<img src="/img/RosterNet_Federation_Workflow_v1_1.svg" class="diagrom-img-sec">
 
 
  
