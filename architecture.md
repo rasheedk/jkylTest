@@ -1,20 +1,27 @@
 ---
 layout: page
-title: Process Workflow
+title: Architecture
 ---
 
 
 
   
   <div class="feature">
-  RosterNet Federation Workflow v1.1
   
-<img src="/jkylTest/img/RosterNet_Federation_Workflow_v1.1.1+2018010401.svg" class="diagrom-img-sec">
+ 
+<img src="/jkylTest/img/RosterNet Architecturev1.0.svg" class="diagrom-img-sec">
 
 
  
   </div>
+  <div class="feature">
+  
+ 
+<img src="/jkylTest/img/RosterNet Architecturev1.0_.svg" class="diagrom-img-sec">
 
+
+ 
+  </div>
 
 <br/>
 
