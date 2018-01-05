@@ -22,9 +22,9 @@ title: Architecture
  
  <div id="header-btns">
  <br/>
- Download the v1.0.1 Architecture below 
+ Download the v1.0.1 Architecture as pdf 
  <br/> <br/>
-    <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/example">Download as pdf</a>
+    <a id="header-btn-right" class="btn" href="/jkylTest/img/RosterNet Architecturev1.0.1+2018010401.pdf">Download</a>
   </div>
   
   
