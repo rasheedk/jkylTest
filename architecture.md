@@ -6,9 +6,7 @@ title: Architecture
 
 
   
-  <div id="header-btns">
-  <a href="https://github.com/rosterNet">Download as PDF</a>
-  </div>
+  
 
 
   
@@ -22,7 +20,13 @@ title: Architecture
   </div>
   
  
- 
+ <div id="header-btns">
+ <br/>
+  # Download the architecture below 
+  </br>
+    <a id="header-btn-left" class="btn" href="{{ site.baseurl }}/help">Download Now</a>
+    <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/example">Download Now</a>
+  </div>
 
 <br/>
 
