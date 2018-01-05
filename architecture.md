@@ -22,11 +22,12 @@ title: Architecture
  
  <div id="header-btns">
  <br/>
-  # Download the architecture below 
-  </br>
-    <a id="header-btn-left" class="btn" href="{{ site.baseurl }}/help">Download Now</a>
-    <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/example">Download Now</a>
+  # Download the v1.0.1 Architecture below 
+ <br/>
+    <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/example">Download as pdf</a>
   </div>
+  
+  
 
 <br/>
 
