@@ -22,8 +22,8 @@ title: Architecture
  
  <div id="header-btns">
  <br/>
-  # Download the v1.0.1 Architecture below 
- <br/>
+ Download the v1.0.1 Architecture below 
+ <br/> <br/>
     <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/example">Download as pdf</a>
   </div>
   
