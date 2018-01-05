@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Roster Net
-subtitle: PaaS
 ---
 
 The quality of physician demographics and which insurance plans they accept remains a challenge across the healthcare ecosystem. Even answering a simple question like “is a particular provider accepting new patients?” is not easy to answer.
