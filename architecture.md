@@ -7,9 +7,7 @@ title: Architecture
 
   
   <div id="header-btns">
-  # Download as PDF 
-    <a id="header-btn-left" class="btn" href="{{ site.baseurl }}/help">Download PDF</a>
-    <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/example">Download PDF</a>
+  <a href="https://github.com/rosterNet">Download as PDF</a>
   </div>
 
 
