@@ -5,9 +5,7 @@ title: Architecture
 
 
 
-  <div id="page-title">
-    <span class="col-roster">Roster</span><span class="col-net">Net</span>
-  </div>
+  
   <div id="page-subtitle">Open Source Provider Directory Software and Data Network </div>
   <div id="header-btns">
     <a id="header-btn-left" class="btn" href="{{ site.baseurl }}/help">Demo</a>
