@@ -6,10 +6,10 @@ title: Architecture
 
 
   
-  <div id="page-subtitle">Open Source Provider Directory Software and Data Network </div>
   <div id="header-btns">
-    <a id="header-btn-left" class="btn" href="{{ site.baseurl }}/help">Demo</a>
-    <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/example">Get Started</a>
+  # Download as PDF 
+    <a id="header-btn-left" class="btn" href="{{ site.baseurl }}/help">Download PDF</a>
+    <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/example">Download PDF</a>
   </div>
 
 
